@@ -1,15 +1,19 @@
 ProjectScribe
-============
-This module allows to import a GandttProject file into modelio. Tasks and HumanRessources are made available in the model and can therefore be referenced in modelio.
+=============
+This plugin allows to import a GanttProject_ file into modelio. Tasks and HumanRessources are made available in the model and can therefore be referenced in modelio.
 
 Profile
 -------
-The integration of gandtt project entities into modelio implies defining a "Project" profile.
+The integration of GanttProject_ entities into modelio implies defining a "Project" profile.
 
-TODO: Define here the list of stereotype and tag value.
+.. admonition:: TODO
+
+    Define here the list of stereotypes and tag values.
 
 Examples
 --------
+
+The content of GanttProject_ files looks like::
 
     <?xml version="1.0" encoding="UTF-8"?>
     <project name="" company="" webLink="" view-date="2012-12-01"
@@ -64,3 +68,6 @@ Examples
             ...
         </roles>
     </project>
+
+
+.. _GanttProject: http://scribetools.readthedocs.org/en/latest/ganttproject/index.html
