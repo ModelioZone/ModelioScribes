@@ -12,4 +12,7 @@ ModelioScribes
     ParaScribe
     ClassScribe
     UseCaseScribe
+    ProjectScribe
+    KMadeScribe
+
 
