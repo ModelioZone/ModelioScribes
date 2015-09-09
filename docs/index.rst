@@ -7,7 +7,6 @@ ModelioScribes
     :maxdepth: 2
 
 
-    AuditScribe
     SQLScribe
     ParaScribe
     ClassScribe
